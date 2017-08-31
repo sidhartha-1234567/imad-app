@@ -5,12 +5,11 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-
 var articleone = {
-    
    title :'Article One I am Sidhartha Tripathy ',
    heading :'Article one',
    date :'29 october,2017',
+    }
 
    content :`
            '<p>
